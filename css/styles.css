@@ -234,7 +234,6 @@ gap: 40px;
     text-align: center;
     color: #2e2f42;
     margin-bottom: 8px;
-    /* margin-top: 32px; */
 }
 
 .team-list-item {
@@ -251,7 +250,6 @@ gap: 40px;
     font-size: 16px;
     letter-spacing: 0.02em;
     text-align: center;
-    /* height: 127px; */
     margin-bottom: 8px;
 }
 
@@ -308,8 +306,6 @@ gap: 40px;
 
 .footer-container {
     padding: 100px 0;
-    margin-left: 156px;
-    margin-right: 1020px;
 }
 
 .logo-footer {
