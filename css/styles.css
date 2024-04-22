@@ -179,7 +179,7 @@ gap: 40px;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .section-list-item {
@@ -223,7 +223,7 @@ gap: 40px;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .team-list-title {
@@ -233,7 +233,8 @@ gap: 40px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-top: 32px;
+    margin-bottom: 8px;
+    /* margin-top: 32px; */
 }
 
 .team-list-item {
@@ -242,8 +243,7 @@ gap: 40px;
     width: calc((100% - 72px) /4);
     border-radius: 0 0 4px 4px;
     width: 264px;
-    /* padding: 32px 0; */
-    /* height: 380px;  */
+    padding: 32px 0;
 }
 
 .team-list-text {
@@ -269,10 +269,9 @@ gap: 40px;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 8px;
+    padding: 32px 16px;
 }
+
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
@@ -281,8 +280,7 @@ gap: 40px;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    padding-bottom: 72px;
-
+    margin-bottom: 72px;
 }
 
 .portfolio-list-title {
@@ -291,13 +289,13 @@ gap: 40px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px
 }
 
 .portfolio-list-text{
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
-    margin-top: 8px;
 }
 
 /* ========  FOOTER STYLES ====== */
@@ -309,8 +307,7 @@ gap: 40px;
 }
 
 .footer-container {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 0;
     margin-left: 156px;
     margin-right: 1020px;
 }
