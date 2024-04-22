@@ -39,8 +39,8 @@ img {
 }
 
 .section-padding {
-padding-top: 60px;
-padding-bottom: 60px;
+padding: 120px 0;
+/* padding-bottom: 120px; */
 }
 
     /* ====== HEADER STYLES ====== */
@@ -242,7 +242,8 @@ gap: 40px;
     width: calc((100% - 72px) /4);
     border-radius: 0 0 4px 4px;
     width: 264px;
-    height: 380px;
+    /* padding: 32px 0; */
+    /* height: 380px;  */
 }
 
 .team-list-text {
@@ -250,8 +251,8 @@ gap: 40px;
     font-size: 16px;
     letter-spacing: 0.02em;
     text-align: center;
-    height: 127px;
-    margin-top: 8px;
+    /* height: 127px; */
+    margin-bottom: 8px;
 }
 
 /* ====== OUR PORTFOLIO STYLES ====== */
